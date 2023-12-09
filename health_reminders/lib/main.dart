@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:health_reminders/pages/landing.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      
-      home: landingPage(),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
