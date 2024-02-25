@@ -42,10 +42,10 @@ class _showNotiDrugScreenState extends State<showNotiDrugScreen> {
               color: brown,
             ),
             onPressed: () {
-              /*Navigator.push(
+              Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => notidrug2Page()),
-              );*/
+                MaterialPageRoute(builder: (context) => addNotiDrugScreen()),
+              );
             },
           ),
         ],

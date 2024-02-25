@@ -95,7 +95,7 @@ class HomePageContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color.fromARGB(255, 255, 171, 145),
+      color: Color.fromARGB(255, 253, 248, 236),
       child: Column(
         children: [
           Container(
@@ -105,7 +105,7 @@ class HomePageContent extends StatelessWidget {
               children: <Widget>[
                 AppBar(
                   automaticallyImplyLeading: false,
-                  backgroundColor: Color.fromARGB(255, 255, 87, 34),
+                  backgroundColor: Color.fromARGB(255, 244, 233, 206),
                   centerTitle: true,
                   elevation: 0.0,
                   title: Text(

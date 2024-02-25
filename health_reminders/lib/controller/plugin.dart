@@ -92,10 +92,10 @@ class homeProfileWidget extends StatelessWidget {
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
               colors: [
-                Color.fromARGB(255, 255, 171, 145),
-                Color.fromARGB(255, 255, 138, 101),
-                Color.fromARGB(255, 255, 87, 34),
-                Color.fromARGB(255, 255, 87, 34),
+                Color.fromARGB(255, 253, 248, 236),
+                Color.fromARGB(255, 249, 242, 227),
+                Color.fromARGB(255, 244, 233, 206),
+                Color.fromARGB(255, 244, 233, 206),
               ],
               stops: const [
                 0.1,

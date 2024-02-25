@@ -73,7 +73,7 @@ class _addNotiExercireScreenState extends State<addNotiExercireScreen> {
         onBackButtonPressed: () {
           Navigator.pop(context);
         },
-        title: "การแจ้งเตือน",
+        title: "เวลาออกกำลังกาย",
         onActionButtonPressed: () {
           print(
               '${exerciseController.text.trim()}\n${noteController.text.trim()}\n$selectedDate\n$selectedTime');
