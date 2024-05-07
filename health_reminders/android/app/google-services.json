@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "591465468182",
-    "project_id": "health-reminders-b674f",
-    "storage_bucket": "health-reminders-b674f.appspot.com"
+    "project_number": "141689815507",
+    "project_id": "final-project-b38aa",
+    "storage_bucket": "final-project-b38aa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:591465468182:android:53aa7926b8f3102958c037",
+        "mobilesdk_app_id": "1:141689815507:android:45ee7dc82a6755a0ad2f26",
         "android_client_info": {
           "package_name": "com.example.health_reminders"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBqdjv7bnns3OVWxq7n5ibHWbRb26jJ7n8"
+          "current_key": "AIzaSyAxXaZSRX1Wu5duBmp67IklShDBoGe42Ns"
         }
       ],
       "services": {

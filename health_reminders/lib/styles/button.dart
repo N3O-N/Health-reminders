@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:health_reminders/styles/color.dart';
 
 final ButtonStyle buttonone = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 55),
-  primary: yellow,
+  minimumSize: Size(281, 55), backgroundColor: yellow,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -13,20 +12,18 @@ final ButtonStyle buttonone = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttontwo = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 55),
-  primary: white,
+  minimumSize: Size(281, 55), backgroundColor: white,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
-    side: BorderSide(color:brown),
+    side: BorderSide(color: brown),
   ),
   shadowColor: brown,
   elevation: 1,
 );
 
 final ButtonStyle buttonlgin = ElevatedButton.styleFrom(
-  minimumSize: Size(133, 40),
-  primary: yellow,
+  minimumSize: Size(133, 40), backgroundColor: yellow,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -36,8 +33,7 @@ final ButtonStyle buttonlgin = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttonwomen = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 55),
-  primary: pink,
+  minimumSize: Size(281, 55), backgroundColor: pink,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -47,8 +43,7 @@ final ButtonStyle buttonwomen = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttonman = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 55),
-  primary: blue,
+  minimumSize: Size(281, 55), backgroundColor: blue,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -58,8 +53,7 @@ final ButtonStyle buttonman = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttonbmi = ElevatedButton.styleFrom(
-  minimumSize: Size(133, 40),
-  primary: green,
+  minimumSize: Size(133, 40), backgroundColor: green,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -69,8 +63,7 @@ final ButtonStyle buttonbmi = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttonmanu = ElevatedButton.styleFrom(
-  minimumSize: Size(133, 40),
-  primary: manu,
+  minimumSize: Size(133, 40), backgroundColor: manu,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -80,8 +73,7 @@ final ButtonStyle buttonmanu = ElevatedButton.styleFrom(
 );
 
 final ButtonStyle buttonnoti = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 61),
-  primary: noti,
+  minimumSize: Size(281, 61), backgroundColor: noti,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -95,27 +87,25 @@ final ButtonStyle calorie = ElevatedButton.styleFrom(
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
-     side: BorderSide(color:brown),
+    side: BorderSide(color: brown),
   ),
   //shadowColor: yellow,
   elevation: 1,
 );
 
 final ButtonStyle sosweetfat = ElevatedButton.styleFrom(
-  minimumSize: Size(130, 100),
-  primary: manu,
+  minimumSize: Size(130, 100), backgroundColor: manu,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
-    side: BorderSide(color:brown),
+    side: BorderSide(color: brown),
   ),
   //shadowColor: brown,
   elevation: 1,
 );
 
 final ButtonStyle foodbutton = ElevatedButton.styleFrom(
-  minimumSize: Size(281, 61),
-  primary: noti,
+  minimumSize: Size(281, 61), backgroundColor: noti,
   //elevation: 0,
   shape: const RoundedRectangleBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),

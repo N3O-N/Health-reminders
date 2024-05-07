@@ -23,9 +23,15 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,38 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBIPakfi0CYDiWsrR2V12Z6cqtgaXIUN68',
-    appId: '1:591465468182:web:7e1c762692906ce258c037',
-    messagingSenderId: '591465468182',
-    projectId: 'health-reminders-b674f',
-    authDomain: 'health-reminders-b674f.firebaseapp.com',
-    storageBucket: 'health-reminders-b674f.appspot.com',
-    measurementId: 'G-D44YWVM9H0',
+    apiKey: 'AIzaSyD_pPggJfMf_puinhjycrKehiV2RLI163M',
+    appId: '1:141689815507:web:5bfcbcb22c5a16bbad2f26',
+    messagingSenderId: '141689815507',
+    projectId: 'final-project-b38aa',
+    authDomain: 'final-project-b38aa.firebaseapp.com',
+    storageBucket: 'final-project-b38aa.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBqdjv7bnns3OVWxq7n5ibHWbRb26jJ7n8',
-    appId: '1:591465468182:android:53aa7926b8f3102958c037',
-    messagingSenderId: '591465468182',
-    projectId: 'health-reminders-b674f',
-    storageBucket: 'health-reminders-b674f.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDPH8edmhQr_nRNexgXyFFs8BYDt0HTYJU',
-    appId: '1:591465468182:ios:b8d8e3d7b15097c958c037',
-    messagingSenderId: '591465468182',
-    projectId: 'health-reminders-b674f',
-    storageBucket: 'health-reminders-b674f.appspot.com',
-    iosBundleId: 'com.example.healthReminders',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDPH8edmhQr_nRNexgXyFFs8BYDt0HTYJU',
-    appId: '1:591465468182:ios:b8d8e3d7b15097c958c037',
-    messagingSenderId: '591465468182',
-    projectId: 'health-reminders-b674f',
-    storageBucket: 'health-reminders-b674f.appspot.com',
-    iosBundleId: 'com.example.healthReminders',
+    apiKey: 'AIzaSyAxXaZSRX1Wu5duBmp67IklShDBoGe42Ns',
+    appId: '1:141689815507:android:45ee7dc82a6755a0ad2f26',
+    messagingSenderId: '141689815507',
+    projectId: 'final-project-b38aa',
+    storageBucket: 'final-project-b38aa.appspot.com',
   );
 }
